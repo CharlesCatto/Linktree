@@ -15,3 +15,9 @@ body {
 }
 
 /* linear-gradient(to bottom, #2a2f92, #59b1d4); */
+
+@media (prefers-color-scheme: dark) {
+	.sun {
+		display: none;
+	}
+}
