@@ -1,10 +1,10 @@
 import styles from "./ProfileCard.module.css";
 
-type ProfileCardProps = {
+interface ProfileCardProps {
 	title: string;
 	url: string;
 	img: string;
-};
+}
 
 export function ProfileCard({ title, url, img }: ProfileCardProps) {
 	return (
@@ -15,7 +15,7 @@ export function ProfileCard({ title, url, img }: ProfileCardProps) {
 			className={styles.card}
 		>
 			<img src={img} alt={title} className={styles.cardImage} />
-			<h3>{title}</h3>
+			<p className={styles.cardTitle}>{title}</p>
 		</a>
 	);
 }

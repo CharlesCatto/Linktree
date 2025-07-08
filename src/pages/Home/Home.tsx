@@ -8,6 +8,7 @@ import linkedin from "../../assets/Cards/linkedin.svg";
 import calendar from "../../assets/Cards/calendar.png";
 import simplon from "../../assets/Cards/simplon.svg";
 import cv from "../../assets/Cards/CV.png";
+import github from "../../assets/Cards/GitHub.png";
 
 export default function Home() {
 	const links = [
@@ -18,23 +19,28 @@ export default function Home() {
 		},
 		{
 			title: "Mon LinkedIn",
-			url: "https://www.linkedin.com/in/ton-profil",
+			url: "https://www.linkedin.com/in/charles-catto/",
 			img: linkedin,
 		},
 		{
 			title: "Voir mon CV",
-			url: "/CV_Charles_Catto.pdf",
+			url: "/Linktree/CV_Charles_Catto.pdf",
 			img: cv,
 		},
 		{
 			title: "Programme Formation Simplon CDA",
-			url: "https://simplon.co",
+			url: "/Linktree/Descriptif_formation_CDA.pdf",
 			img: simplon,
 		},
 		{
 			title: "Calendrier Formation Simplon",
-			url: "/calendrier",
+			url: "/Linktree/CDA_Calendar.pdf",
 			img: calendar,
+		},
+		{
+			title: "Mon GitHub",
+			url: "https://github.com/CharlesCatto",
+			img: github,
 		},
 	];
 

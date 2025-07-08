@@ -27,6 +27,11 @@
 	object-fit: contain;
 }
 
+.cardTitle {
+	font-weight: bold;
+	font-size: 1em;
+}
+
 .avatar {
 	width: 80px;
 	height: 80px;
