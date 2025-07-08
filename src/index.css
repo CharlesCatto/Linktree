@@ -1,0 +1,17 @@
+:root {
+	--color-bg: linear-gradient(to bottom, #a7eaff 0%, #2eb5e5 100%);
+	--color-text: #ffffff;
+	--color-button: #1e90ff;
+	--color-button-hover: #1c7ed6;
+	--color-border: rgba(255, 255, 255, 0.2);
+	--color-card: rgba(255, 255, 255, 0.08);
+}
+
+body {
+	margin: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background: var(--color-bg);
+	color: var(--color-text);
+}
+
+/* linear-gradient(to bottom, #2a2f92, #59b1d4); */

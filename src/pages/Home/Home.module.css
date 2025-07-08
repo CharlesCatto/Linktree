@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 2rem;
+}
+
+.title {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: var(--color-text);
+}
+
+.profileImage {
+	display: block;
+	margin: 2em auto;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardsWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	padding: 2rem;
+}
