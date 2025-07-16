@@ -18,6 +18,8 @@ body {
 
 @media (prefers-color-scheme: dark) {
 	.sun {
-		display: none;
+		visibility: hidden;
+		pointer-events: none;
+		opacity: 0;
 	}
 }

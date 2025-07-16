@@ -2,7 +2,7 @@ import styles from "./Sun.module.css";
 
 export default function Sun() {
 	return (
-		<div className={styles.sun}>
+		<div className={`${styles.sun} sun_global`}>
 			<div className={styles.ray_box}>
 				<div className={`${styles.ray} ${styles.ray1}`} />
 				<div className={`${styles.ray} ${styles.ray2}`} />

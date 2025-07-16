@@ -1,6 +1,6 @@
 import styles from "./Home.module.css";
 import { ProfileCard } from "../../components/ProfileCard/ProfileCard";
-import Sun from "../../components/Sun/Sun";
+
 import Me from "../../assets/Me.png";
 
 import portfolio from "../../assets/Cards/portfolio.svg";
@@ -46,7 +46,6 @@ export default function Home() {
 
 	return (
 		<div className={styles.container}>
-			<Sun />
 			<img src={Me} alt="Moi" className={styles.profileImage} />
 			<h1 className={styles.title}>Bienvenue sur mon Linktree</h1>
 			<div className={styles.cardsWrapper}>
